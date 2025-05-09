@@ -1,6 +1,6 @@
   # Assignment 1 
-1.Write a program which contains one function named as Fun(). That function should display
-“Hello from Fun” on console.
+ 1.Write a program which contains one function named as Fun(). That function should display
+  “Hello from Fun” on console.
 
         def fun():
         function definition:( The keyword def is used to define a function Fun is the name of the function () indicates that this function does not take any parameters.
@@ -10,7 +10,7 @@
         fun()
         Calling the Function:(This line executes the function Fun, which causes the message to be printed)
 
-2. Write a program which contains one function named as ChkNum() which accept one parameter as number. If number is even then it should display “Even number” otherwise display “Odd number” on console.
+ 2. Write a program which contains one function named as ChkNum() which accept one parameter as number. If number is even then it should display “Even number” otherwise display “Odd number” on console.
    Input : 11	Output : Odd Number
    Input : 8	Output : Even Number
 
@@ -50,7 +50,7 @@
         Function Call:
         Add() invokes the function so that the code inside runs.
 
-4.Write a program which display 5 times Marvellous on screen. Output :  
+ 4.Write a program which display 5 times Marvellous on screen. Output :  
      Marvellous
      Marvellous
      Marvellous 
