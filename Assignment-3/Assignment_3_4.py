@@ -10,7 +10,7 @@ def main():
     numbers = []
 
     print("Enter the elements:")
-    for _ in range(n):
+    for i in range(n):
         num = int(input())
         numbers.append(num)  
         
