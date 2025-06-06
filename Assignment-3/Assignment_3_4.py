@@ -4,22 +4,24 @@
 #Element to search : 5 Output : 3
 
 def main():
-    print("Enter the number of elements: ")
+    print("Enter number of elements: ")
     n = int(input())
 
-    numbers = []
+    print("Enter elements separated by space:")
+    numbers = list(map(int, input().split()))
 
-    print("Enter the elements:")
-    for i in range(n):
-        num = int(input())
-        numbers.append(num)  
-        
+    if len(numbers) != n:
+        print("Error: Number of elements does not match input count.")
+        return
+
     target = int(input("Enter the element to search: "))
 
-    frequency = numbers.count(target)
+    frequency = 0
+    for num in numbers:
+        if num == target:
+            frequency += 1
 
     print(f"Frequency of {target} is:", frequency)
-
 
 if __name__ == "__main__":
     main()
